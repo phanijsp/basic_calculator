@@ -297,7 +297,6 @@
         android:fontFamily="@font/comfortaa_bold"
         android:gravity="bottom"
         android:padding="8dp"
-        android:text="TextView"
         android:textAlignment="viewEnd"
         android:textColor="#fff"
         android:textSize="36sp"
