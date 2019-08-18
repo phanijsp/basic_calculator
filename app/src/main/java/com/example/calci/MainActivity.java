@@ -221,6 +221,12 @@ public class MainActivity extends AppCompatActivity {
         for(int i =0;i<arrayList.size();i++){
             g=g+arrayList.get(i);
         }
-        maintext.setText(g);
+        if(g.equals("-0.0")){
+            maintext.setText("0.0");
+
+        }else{
+            maintext.setText(g);
+
+        }
     }
 }
